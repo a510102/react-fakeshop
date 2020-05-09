@@ -1,0 +1,34 @@
+.App{
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(54, 49, 49, 0.349);
+  color:#fff;
+  padding: 0 2rem;
+}
+
+.nav-list{
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.product-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.product-detail{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3rem;
+}
